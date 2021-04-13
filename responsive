@@ -1,0 +1,42 @@
+
+
+
+@media(max-width:1000px){
+    .lesson {
+        width:40%;
+        height: 50%;
+    }
+
+
+
+    .lessons{
+
+        justify-content: center;
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+}
+
+
+@media(max-width:680px){
+    .lesson {
+        width:100%;
+    }
+
+    .lessons {
+        justify-content: center;
+    }
+
+    .header-logo   {
+        width: 25%;
+    }
+    .course-list    {
+
+        font-size:12px;
+    }
+
+    footer  p{
+    font-size:13px;
+        }
+}
