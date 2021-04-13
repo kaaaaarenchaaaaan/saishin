@@ -1,0 +1,226 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+body,html {
+    font-family: 'PT Serif', serif;
+    margin:0px;
+    text-align: center;
+    width:100%;
+
+}
+
+
+
+
+header{
+    background-color: black;
+    width:100%;
+    position:fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-wrapper  {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-logo {
+    width: 180px;
+    margin-left: 10px;
+    line-height: 50px;
+}
+
+
+
+
+
+.course-list {
+    display: flex;
+    color: white;
+    line-height: 50px;
+    margin-right: 30px;
+}
+
+.course-list li {
+
+    padding-left: 40px;
+}
+
+.main-warper    {
+    background-image: url("../img/top_image.jpg");
+    background-size: cover;
+    padding: 300px 0 300px 0 ;
+
+}
+
+
+.main-warper p {
+    font-size: 68.16px;
+    color:white ;
+}
+
+.lesson-warper {
+        padding-bottom: 21.44px ;
+        text-align:center;
+        height:100%;
+}
+
+.lesson-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin:30px 0;
+
+}
+
+
+.ue {
+    border-bottom: 1px solid silver;
+    padding-bottom :30px;
+    margin-bottom :30px;
+    margin-top: 30px;
+}
+
+.lesson-coment {
+        width: 80%;
+        font-size: 16px;
+        display:inline-block;
+}
+
+.lesson {
+    box-shadow:0 10px 10px 0 rgb(0 0 0 / 50%);
+    width: 40%;
+    margin: 0 30px 30px 30px;
+        }
+
+.shita {
+    padding-bottom:30px;
+}
+
+
+.lessons {
+        justify-content:center;
+        display:flex;
+
+
+}
+
+.lesson img {
+    width:100%;
+}
+
+.miru {
+    margin:60px auto 80px auto;
+
+}
+
+.miru  a {
+
+    padding:20px 100px;
+    box-shadow: 0 5px 5px 0 rgb(0 0 0 / 50%);
+    cursor: pointer;
+    font-size:16px;
+
+}
+
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end:1em ;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+h1 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end:1em ;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 32px;
+    margin-bottom:30px;
+    font-weight:bold;
+}
+
+footer {
+    background-color: black;
+    width:100%;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 30px;
+}
+
+
+
+
+
+.picture {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    margin-right: 20px;
+}
+
+
+.teacher-introduction {
+    text-align: left;
+    width:50%;
+}
+
+.teacher-item {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.teacher-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin:19.92px 0 ;
+
+}
+
+.koment{
+    line-height :25px;
+    margin:19.92px 0;
+
+}
+.bun{
+    font-size :16px;
+}
+
+
+footer  {
+    margin-top: 30px;
+    background-color: black;
+    width:100%;
+    height: 100px;
+    position:absolute;
+    bottom:0;
+    text-align: center;
+
+}
+
+footer  p{
+    color:white;
+    line-height:100px;
+    width:100%;
+
+    }
+
+.warp {
+    position:relative;
+    min-height: 100vh;
+    padding-bottom: 120px;
+    box-sizing: border-box;
+}
